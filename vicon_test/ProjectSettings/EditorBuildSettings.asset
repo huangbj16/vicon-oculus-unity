@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ViconUnityPlugin/Scenes/ViconHMDScriptExample.unity
+    guid: 4b9728a1ac99f0949816ad68f5fe40f4
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7b1c3342b2117a744b022c5806427c38, type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 8194c08806a5ebe46868d60a735ff7f0, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: eed1f76a7812a584c90e81951ac32526, type: 2}
