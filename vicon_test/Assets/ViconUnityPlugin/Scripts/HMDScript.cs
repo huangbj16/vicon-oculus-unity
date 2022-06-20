@@ -156,7 +156,7 @@ public class HMDScript : BasePoseProvider
             // headset to unity
             ViconOrientation = ViconInHMD.Rotation;
             ViconPosition = ViconInHMD.Position;
-            HMDUtils.FusionService.Quat Rotation = new HMDUtils.FusionService.Quat(-ViconOrientation.X, -ViconOrientation.Y, -ViconOrientation.Z, ViconOrientation.W);
+            HMDUtils.FusionService.Quat Rotation = new HMDUtils.FusionService.Quat(ViconOrientation.X, -ViconOrientation.Y, -ViconOrientation.Z, ViconOrientation.W);
             HMDUtils.FusionService.Vec Position = new HMDUtils.FusionService.Vec(-ViconPosition.X, ViconPosition.Y, ViconPosition.Z);
             HMDUtils.FusionService.Pose ViconInUnity = new HMDUtils.FusionService.Pose(Position, Rotation);
 

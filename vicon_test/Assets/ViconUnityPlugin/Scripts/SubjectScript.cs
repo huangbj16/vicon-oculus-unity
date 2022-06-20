@@ -94,11 +94,11 @@ namespace UnityVicon
         Quaternion Rot = new Quaternion((float)ORot.Rotation[0], (float)ORot.Rotation[1], (float)ORot.Rotation[2], (float)ORot.Rotation[3]);
                 // mapping right hand to left hand flipping x
 
-                _filteredRot.Value = new Vector4(Rot.x, Rot.y, Rot.z, Rot.w);
-                _adaptiveRot.Value = new Vector4(Rot.x, Rot.y, Rot.z, Rot.w);
-                //Bone.localRotation = new Quaternion(-Rot.y, -Rot.z, Rot.x, Rot.w);
+                //_filteredRot.Value = new Vector4(Rot.x, Rot.y, Rot.z, Rot.w);
+                //_adaptiveRot.Value = new Vector4(Rot.x, Rot.y, Rot.z, Rot.w);
+                Bone.localRotation = new Quaternion(-Rot.y, -Rot.z, Rot.x, Rot.w);
                 //Bone.localRotation = new Quaternion(-_filteredRot.Value.y, -_filteredRot.Value.z, _filteredRot.Value.x, _filteredRot.Value.w);
-                Bone.localRotation = new Quaternion(-_adaptiveRot.Value.y, -_adaptiveRot.Value.z, _adaptiveRot.Value.x, _adaptiveRot.Value.w);
+                //Bone.localRotation = new Quaternion(-_adaptiveRot.Value.y, -_adaptiveRot.Value.z, _adaptiveRot.Value.x, _adaptiveRot.Value.w);
             }
 
       Output_GetSegmentLocalTranslation OTran;
@@ -115,12 +115,12 @@ namespace UnityVicon
       {
         //Vector3 Translate = new Vector3(-(float)OTran.Translation[2] * 0.001f, -(float)OTran.Translation[0] * 0.001f, (float)OTran.Translation[1] * 0.001f);
         Vector3 Translate = new Vector3((float)OTran.Translation[0] * 0.001f, (float)OTran.Translation[1] * 0.001f, (float)OTran.Translation[2] * 0.001f);
-
-        _filteredPos.Value = Translate;
-        _adaptivePos.Value = Translate;
+        Bone.localPosition = new Vector3(Translate.y, Translate.z, -Translate.x);
+        //_filteredPos.Value = Translate;
+        //_adaptivePos.Value = Translate;
         
        
-        Bone.localPosition = new Vector3(_filteredPos.Value.y, _filteredPos.Value.z, -_filteredPos.Value.x);
+        //Bone.localPosition = new Vector3(_filteredPos.Value.y, _filteredPos.Value.z, -_filteredPos.Value.x);
         //Bone.localPosition = new Vector3(_adaptivePos.Value.y, _adaptivePos.Value.z, -_adaptivePos.Value.x);
             }
 

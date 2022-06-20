@@ -51,5 +51,14 @@ One useful link we found is [左右手坐标系的转换](https://blog.csdn.net/
 
 We do feel that as HCI researcher, we lack knowledge to fully understand how the conversion works. Therefore, if have a better idea of how to do the coordinate conversion, feel free to add to this readme and make it better!
 
+Update[June 2020]
+
+Current Setup:
+
+Marker on the headset: attach marker grid to the headset, rotate the grid so that in vicon tracker, y is facing backward and z is facing upward. Then add 90 degree to object rotation so y is facing upward and z is facing forward.
+
+Marker on the object: adjust as you need.
+
+
 Bingjian Huang,
-Last Updated on June 17, 2022
+Last Updated on June 20, 2022
