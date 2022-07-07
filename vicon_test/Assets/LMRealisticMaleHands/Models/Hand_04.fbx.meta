@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: 2bb06a3b1b1427849bc93b49b317b540
+timeCreated: 1510833184
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Male_Arm_Right
+    100004: R_Arm
+    100006: R_Finger_Index_A
+    100008: R_Finger_Index_B
+    100010: R_Finger_Index_C
+    100012: R_Finger_Middle_A
+    100014: R_Finger_Middle_B
+    100016: R_Finger_Middle_C
+    100018: R_Finger_Pinky_A
+    100020: R_Finger_Pinky_B
+    100022: R_Finger_Pinky_C
+    100024: R_Finger_Ring_A
+    100026: R_Finger_Ring_B
+    100028: R_Finger_Ring_C
+    100030: R_Finger_Thumb_A
+    100032: R_Finger_Thumb_B
+    100034: R_Finger_Thumb_C
+    100036: R_Forearm
+    100038: R_Wrist
+    400000: //RootNode
+    400002: Male_Arm_Right
+    400004: R_Arm
+    400006: R_Finger_Index_A
+    400008: R_Finger_Index_B
+    400010: R_Finger_Index_C
+    400012: R_Finger_Middle_A
+    400014: R_Finger_Middle_B
+    400016: R_Finger_Middle_C
+    400018: R_Finger_Pinky_A
+    400020: R_Finger_Pinky_B
+    400022: R_Finger_Pinky_C
+    400024: R_Finger_Ring_A
+    400026: R_Finger_Ring_B
+    400028: R_Finger_Ring_C
+    400030: R_Finger_Thumb_A
+    400032: R_Finger_Thumb_B
+    400034: R_Finger_Thumb_C
+    400036: R_Forearm
+    400038: R_Wrist
+    4300000: Male_Arm_Right
+    9500000: //RootNode
+    13700000: Male_Arm_Right
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AfroAmerican
+    second: {fileID: 2100000, guid: 1d0d7b2384582a340ae7c389fabb2d85, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
