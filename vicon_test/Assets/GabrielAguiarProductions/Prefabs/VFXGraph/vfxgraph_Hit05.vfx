@@ -9070,7 +9070,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615832}
   m_ExposedName: GlowRate
   m_Exposed: 1
-  m_Order: 10
+  m_Order: 14
   m_Category: GLOW
   m_Min:
     m_Type:
@@ -9150,7 +9150,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615834}
   m_ExposedName: GlowLifetime
   m_Exposed: 1
-  m_Order: 15
+  m_Order: 18
   m_Category: GLOW
   m_Min:
     m_Type:
@@ -9233,7 +9233,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615836}
   m_ExposedName: GlowColor
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: GLOW
   m_Min:
     m_Type:
@@ -9449,7 +9449,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615842}
   m_ExposedName: GlowTexture
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 9
   m_Category: GLOW
   m_Min:
     m_Type:
@@ -9529,7 +9529,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615844}
   m_ExposedName: GlowSize
   m_Exposed: 1
-  m_Order: 20
+  m_Order: 22
   m_Category: GLOW
   m_Min:
     m_Type:
@@ -9612,7 +9612,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615846}
   m_ExposedName: DecalRate
   m_Exposed: 1
-  m_Order: 16
+  m_Order: 19
   m_Category: DECAL
   m_Min:
     m_Type:
@@ -9692,7 +9692,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615848}
   m_ExposedName: DecalLifetime
   m_Exposed: 1
-  m_Order: 21
+  m_Order: 23
   m_Category: DECAL
   m_Min:
     m_Type:
@@ -9772,7 +9772,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615850}
   m_ExposedName: DecalSize
   m_Exposed: 1
-  m_Order: 24
+  m_Order: 25
   m_Category: DECAL
   m_Min:
     m_Type:
@@ -9855,7 +9855,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615852}
   m_ExposedName: DecalTexture
   m_Exposed: 1
-  m_Order: 11
+  m_Order: 15
   m_Category: DECAL
   m_Min:
     m_Type:
@@ -9935,7 +9935,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615854}
   m_ExposedName: DecalColor
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 4
   m_Category: DECAL
   m_Min:
     m_Type:
@@ -10151,7 +10151,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615860}
   m_ExposedName: FlashColor
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 6
   m_Category: FLASH
   m_Min:
     m_Type:
@@ -10367,7 +10367,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615866}
   m_ExposedName: FlashTexture
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 11
   m_Category: FLASH
   m_Min:
     m_Type:
@@ -10447,7 +10447,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615868}
   m_ExposedName: FlashSize
   m_Exposed: 1
-  m_Order: 25
+  m_Order: 26
   m_Category: FLASH
   m_Min:
     m_Type:
@@ -10527,7 +10527,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615870}
   m_ExposedName: FlashRate
   m_Exposed: 1
-  m_Order: 12
+  m_Order: 16
   m_Category: FLASH
   m_Min:
     m_Type:
@@ -10607,7 +10607,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615872}
   m_ExposedName: FlashLifetime
   m_Exposed: 1
-  m_Order: 17
+  m_Order: 20
   m_Category: FLASH
   m_Min:
     m_Type:
@@ -10690,7 +10690,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615876}
   m_ExposedName: ParticlesRate
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 5
   m_Category: PARTICLES
   m_Min:
     m_Type:
@@ -10770,7 +10770,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615878}
   m_ExposedName: ParticlesLifetime
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 7
   m_Category: PARTICLES
   m_Min:
     m_Type:
@@ -10853,7 +10853,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615880}
   m_ExposedName: ParticlesSize
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 10
   m_Category: PARTICLES
   m_Min:
     m_Type:
@@ -10936,7 +10936,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615882}
   m_ExposedName: ParticlesTexture
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 3
   m_Category: PARTICLES
   m_Min:
     m_Type:
@@ -11016,7 +11016,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615884}
   m_ExposedName: ParticlesColor
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: PARTICLES
   m_Min:
     m_Type:
@@ -11296,7 +11296,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615907}
   m_ExposedName: DecalGradient
   m_Exposed: 1
-  m_Order: 8
+  m_Order: 12
   m_Category: DECAL
   m_Min:
     m_Type:
@@ -11376,7 +11376,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615915}
   m_ExposedName: CircleTexture
   m_Exposed: 1
-  m_Order: 9
+  m_Order: 13
   m_Category: CIRCLE
   m_Min:
     m_Type:
@@ -11456,7 +11456,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615917}
   m_ExposedName: CircleRate
   m_Exposed: 1
-  m_Order: 14
+  m_Order: 17
   m_Category: CIRCLE
   m_Min:
     m_Type:
@@ -11536,7 +11536,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615919}
   m_ExposedName: CircleLifetime
   m_Exposed: 1
-  m_Order: 19
+  m_Order: 21
   m_Category: CIRCLE
   m_Min:
     m_Type:
@@ -11616,7 +11616,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615921}
   m_ExposedName: CircleSize
   m_Exposed: 1
-  m_Order: 23
+  m_Order: 24
   m_Category: CIRCLE
   m_Min:
     m_Type:
@@ -12207,7 +12207,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615942}
   m_ExposedName: ParticlesVelocity
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 8
   m_Category: PARTICLES
   m_Min:
     m_Type:
