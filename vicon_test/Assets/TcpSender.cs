@@ -14,6 +14,7 @@ public class TcpSender : MonoBehaviour
     TcpClient client = null;
     NetworkStream stream = null;
     StreamWriter writer = null;
+    public bool isConnected = false;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,13 @@ public class TcpSender : MonoBehaviour
         client = new TcpClient();
         if (SetupSocket())
         {
+            isConnected = true;
             Debug.Log("socket is set up");
+        }
+        else
+        {
+            isConnected = false;
+            Debug.Log("socket setup failed");
         }
     }
 
