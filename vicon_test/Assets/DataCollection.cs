@@ -29,6 +29,8 @@ public class DataCollection
     private int varV, varH, repeat;
     private int testNum;
     private int idx;
+    private string filename;
+    private StreamWriter streamWriter;
 
     public DataCollection()
     {
@@ -58,6 +60,9 @@ public class DataCollection
             int temp = Random.Range(i, testNum);
             (dataArray[i], dataArray[temp]) = (dataArray[temp], dataArray[i]);
         }
+
+        filename = "Data/" + System.DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".txt";
+        streamWriter = new StreamWriter(filename);
     }
 
     public VisualHapticPair GetNextTrial()
@@ -77,18 +82,21 @@ public class DataCollection
     public void ResultUpdate(int res)
     {
         resArray[idx] = res;
+        streamWriter.WriteLine(dataArray[idx].ToString() + " " + resArray[idx].ToString());
         idx++;
     }
 
     public void SaveToFile()
     {
-        string filename = "Data/"+ System.DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".txt";
+        //string filename = "Data/"+ System.DateTime.Now.ToString("yyyyMMdd_HHmmss") + ".txt";
         Debug.Log("save data to file = " + filename);
+        /*
         StreamWriter streamWriter = new StreamWriter(filename);
         for (int i = 0; i < testNum; i++)
         {
             streamWriter.WriteLine(dataArray[i].ToString()+" "+resArray[i].ToString());
         }
+        */
         streamWriter.Close();
     }
 }
